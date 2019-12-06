@@ -19,7 +19,12 @@ text-decoration:underline;
 
 a:hover { /* -------For styling and set the style of hover. Hover used to select elements when you mouse over them-------------- */
 color:#616161;
+background-color: darkgrey;
 text-decoration:none;
+}
+
+img {
+	width: 100%;
 }
 
 blockquote {  /* -------For styling the quotation element-------------- */
@@ -107,17 +112,17 @@ background-color:#cccccc;
 
 #navbar li a { /* -------To style and set The block element used to represent an item in a list on the navigation bar and also the hyperlink in navigation bar------------ */
 margin:0 0 0 0;
+text-decoration: none;
 padding:1em .5em 1em .5em !important;
 padding:1em .5em 0 .5em;
 }
 
 #header { /* -------To style and set The header of the page------------ */
 margin:0 -1em 0 -1em;
-background: 
 padding:0 0 0 0;
-height:143px;
-background-color:#cccccc;
+background-color: #cccccc;
 border-top:1px solid #ffffff;
+text-align: center;
 }
 
 #header h1 { /* -------To style and set The h1 sentence on the header of the page------------ */
@@ -144,6 +149,7 @@ margin:0 5px 1em 0;
 padding:8px;
 float:left;
 width:210px;
+height: 350px;
 background-color:#cccccc;
 }
 
@@ -152,6 +158,7 @@ margin:0 14px 1em 14px;
 padding:8px;
 float:left;
 width:210px;
+height: 350px;
 background-color:#cccccc;
 }
 
@@ -160,10 +167,66 @@ margin:0 0 1em 5px;
 padding:8px;
 float:left;
 width:210px;
+height: 350px;
 background-color:#cccccc;
 }
 
-#cell_1 p, #cell_2 p, #cell_3 p { /* -------To style and set The pharagraph on first, second, third cell (bigger than box) after the header------------ */
+#cell_4 { /* -------To style and set The first cell (bigger than box) after the header------------ */
+margin:0 5px 1em 0;
+padding:8px;
+float:left;
+width:210px;
+height: 350px;
+background-color:#cccccc;
+}
+
+#cell_5 { /* -------To style and set The second cell (bigger than box) after the header------------ */
+margin:0 14px 1em 14px;
+padding:8px;
+float:left;
+width:210px;
+height: 350px;
+background-color:#cccccc;
+}
+
+#cell_6 { /* -------To style and set The third cell (bigger than box) after the header------------ */
+margin:0 0 1em 5px;
+padding:8px;
+float:left;
+width:210px;
+height: 350px;
+background-color:#cccccc;
+}
+
+#cell_7 { /* -------To style and set The first cell (bigger than box) after the header------------ */
+margin:0 5px 1em 0;
+padding:8px;
+float:left;
+width:210px;
+height: 350px;
+background-color:#cccccc;
+}
+
+
+#cell_8 { /* -------To style and set The second cell (bigger than box) after the header------------ */
+margin:0 14px 1em 14px;
+padding:8px;
+float:left;
+width:210px;
+height: 350px;
+background-color:#cccccc;
+}
+
+#cell_9 { /* -------To style and set The third cell (bigger than box) after the header------------ */
+margin:0 0 1em 5px;
+padding:8px;
+float:left;
+width:210px;
+height: 350px;
+background-color:#cccccc;
+}
+
+#cell_1 p, #cell_2 p, #cell_3 p, #cell_4 p, #cell_5 p, #cell_6 p, #cell_7 p, #cell_8 p, #cell_9 p { /* -------To style and set The pharagraph on first, second, third cell (bigger than box) after the header------------ */
 font-size:.75em;
 color:#000000;
 }
@@ -187,6 +250,60 @@ font-weight:bold;
 }
 
 #cell_3 h2 { /* -------To style h2 sentence on The third cell (bigger than box) after the header------------ */
+margin:0 0 -4px 0 !important;
+margin:0 0 -20px 0;
+padding:4px 0 10px 0;
+font-family:Georgia, "Times New Roman", Times, serif;
+color:#000000;
+font-weight:bold;
+}
+
+#cell_4 h2 { /* -------To style h2 sentence on The third cell (bigger than box) after the header------------ */
+margin:0 0 -4px 0 !important;
+margin:0 0 -20px 0;
+padding:4px 0 10px 0;
+font-family:Georgia, "Times New Roman", Times, serif;
+color:#000000;
+font-weight:bold;
+}
+
+#cell_5 h2 { /* -------To style h2 sentence on The third cell (bigger than box) after the header------------ */
+margin:0 0 -4px 0 !important;
+margin:0 0 -20px 0;
+padding:4px 0 10px 0;
+font-family:Georgia, "Times New Roman", Times, serif;
+color:#000000;
+font-weight:bold;
+}
+
+#cell_6 h2 { /* -------To style h2 sentence on The third cell (bigger than box) after the header------------ */
+margin:0 0 -4px 0 !important;
+margin:0 0 -20px 0;
+padding:4px 0 10px 0;
+font-family:Georgia, "Times New Roman", Times, serif;
+color:#000000;
+font-weight:bold;
+}
+
+#cell_7 h2 { /* -------To style h2 sentence on The third cell (bigger than box) after the header------------ */
+margin:0 0 -4px 0 !important;
+margin:0 0 -20px 0;
+padding:4px 0 10px 0;
+font-family:Georgia, "Times New Roman", Times, serif;
+color:#000000;
+font-weight:bold;
+}
+
+#cell_8 h2 { /* -------To style h2 sentence on The third cell (bigger than box) after the header------------ */
+margin:0 0 -4px 0 !important;
+margin:0 0 -20px 0;
+padding:4px 0 10px 0;
+font-family:Georgia, "Times New Roman", Times, serif;
+color:#000000;
+font-weight:bold;
+}
+
+#cell_9 h2 { /* -------To style h2 sentence on The third cell (bigger than box) after the header------------ */
 margin:0 0 -4px 0 !important;
 margin:0 0 -20px 0;
 padding:4px 0 10px 0;
@@ -314,7 +431,7 @@ width: 28%; float: left; padding: 1%; border: solid black; margin-right: 2%; mar
 			float:right;
             background: #ffffff;
             padding:2%; 
-            min-height:400px
+            min-height:400px;
             width:800px;
             height: 220px;
 			border: 5px  solid black;	
