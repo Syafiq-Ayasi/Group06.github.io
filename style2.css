@@ -18,8 +18,8 @@ text-decoration:underline;
 }
 
 a:hover { /* -------For styling and set the style of hover. Hover used to select elements when you mouse over them-------------- */
-color:#616161;
-background-color: darkgrey;
+color:#ffffff;
+background-color: #cccccc;
 text-decoration:none;
 }
 
@@ -373,6 +373,19 @@ color:#000000;
 font-size:.8em;
 } 
 
+.button{
+	text-align:center;
+	padding: 15px 25px;
+	border: solid black;
+	color: black;
+	width: 100%;
+	background-color: #cccccc;
+	align-items: center;
+}
+
+.button:hover{
+	background-color: gainsboro;
+}
 
 #footer { /* -------To style and set The footer of the page------------ */
 position:relative;
@@ -391,17 +404,44 @@ background-color:#cccccc;
 
 /*---This is for left and right column---*/
 .column.side {
-  width: 28%; float: left; padding: 1%; border: solid black; margin-right: 2%; margin-left: 2%; margin-bottom: 2%; margin-top: 2%
+  width: 30%; 
+  float: left;
+  padding: 1%; 
+  border: solid black; 
+  margin: 2% 0.5% 2% 0%;
+  text-align: center;
+}
+
+.column.side:hover {
+  background-color: lightgrey;
 }
 
 /*---This Middle column----*/
 .column.middle {
-width: 28%; float: left; padding: 1%; border: solid black; margin-right: 2%; margin-bottom: 2%; margin-top: 2%
+  width: 30%; 
+  float: left; 
+  padding: 1%; 
+  border: solid black; 
+  margin: 2% 0.5% 2% 0;
+  text-align: center;
+}
+
+.column.middle:hover {
+  background-color: lightgrey;
 }
 
 /*---This Middle column----*/
 .column.right {
-width: 28%; float: left; padding: 1%; border: solid black; margin-right: 2%; margin-top: 0; margin-bottom: 2%; margin-top: 2%
+  width: 30%; 
+  float: left; 
+  padding: 1%; 
+  border: solid black; 
+  margin: 2% 0.5% 2% 0;
+  text-align: center;
+}
+
+.column.right:hover {
+  background-color: lightgrey;
 }
 
 /*---Clear floats after the columns----*/
@@ -411,7 +451,7 @@ width: 28%; float: left; padding: 1%; border: solid black; margin-right: 2%; mar
   clear: both;
     
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+	@media screen and (max-width: 600px) {
 .column.side, .column.middle {
     width: 100%;
     }
@@ -443,7 +483,6 @@ width: 28%; float: left; padding: 1%; border: solid black; margin-right: 2%; mar
 	text-align:center;
 	width:750px;
 }
-
 /*This is style for every div that include social media*/
 
 .content{
@@ -451,5 +490,56 @@ width: 28%; float: left; padding: 1%; border: solid black; margin-right: 2%; mar
     text-align: center;
 	padding:0;
     border: 7px solid black;
-	}
+		}	}
 
+/*--Login CSS--*/
+
+.login-page {
+  width: 360px;
+  padding: 8% ;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #26C4C2;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+	
