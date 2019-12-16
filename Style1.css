@@ -3,14 +3,14 @@
 
 body {
 	font-family:Arial, Helvetica, sans-serif;
-	font-size: 87.5%;
-	line-height: 1.5;
+	font-size:87.5%;
+	line-height:1.5;
 	background-color:#ffffff;
 	text-align:left;
 }
 
 a {
-	text-decoration: none;
+	text-decoration:none;
 }
 
 a:hover { 
@@ -26,7 +26,7 @@ h2 {
 }
 
 h3 {
-	margin: 0 auto;
+	margin:0 auto;
 	padding:12px 0 0 0;
 	font-size:13px;
 	font-weight:lighter;
@@ -44,86 +44,86 @@ hr {
 }
 
 .body{
-	margin: 0 auto;
+	margin:0 auto;
 	clear:both;
 	width: 70%;
 }
 
 #header img {
-	width: 100%;
-	height: auto;
-	margin: 2% 0;
+	width:100%;
+	height:auto;
+	margin:2% 0;
 	
 }
 
 #postHeader{
-	width: 100%;
-	text-align: right;
-	font-size: 11px;
+	width:100%;
+	text-align:right;
+	font-size:11px;
 }
 
 #navbar{
-	margin: 5px 0 ;
+	margin:5px 0 ;
 	background-color:#cccccc;
-	height: 40px;
+	height:40px;
 }
 
 #navbar ul{
-	list-style: none;
-	margin: 0 auto;
-	padding-left: 0px;
+	list-style:none;
+	margin:0 auto;
+	padding-left:0px;
 }
 
 #navbar ul li{
 	float:left;
-	display: inline;
+	display:inline;
 }
 
 #navbar ul li a{
-	display: inline-block;
-	color: white;
-	padding: 10px 15px;
-	height: 20px;
+	display:inline-block;
+	color:white;
+	padding:10px 15px;
+	height:20px;
 }
 
 #navbar a:hover {
-	background-color: darkgrey;
-	color: black;
+	background-color:darkgrey;
+	color:black;
 }
 
 #navbar1{
-	margin: 5px 0 ;
+	margin:5px 0 ;
 	background-color:#cccccc;
-	height: 40px;
+	height:40px;
 }
 
 #navbar1 ul{
-	list-style: none;
-	margin: 0 auto;
+	list-style:none;
+	margin:0 auto;
 }
 
 #navbar1 ul li{
 	float:left;
-	display: inline;
+	display:inline;
 }
 
 #navbar1 ul li a{
-	display: inline-block;
-	color: white;
-	padding: 10px 15px;
-	height: 20px;
+	display:inline-block;
+	color:white;
+	padding:10px 15px;
+	height:20px;
 }
 
 #navbar1 a:hover {
-	background-color: darkgrey;
-	color: black;
+	background-color:darkgrey;
+	color:black;
 }
 
 #header {
 	margin:0 auto;
-	background-color: #cccccc;
+	background-color:#cccccc;
 	border-top:5px solid #ffffff;
-	text-align: center;
+	text-align:center;
 }
 
 #header h1 { 
@@ -138,7 +138,7 @@ hr {
 #header h2 { 
 	margin:0 auto;
 	padding:1em 0 0 30px;
-	font-size: 100%;
+	font-size:100%;
 	font-weight:300;
 	letter-spacing:2px;
 	color:#000000;
@@ -238,74 +238,74 @@ hr {
 }
 
 #cell_1 img,  #cell_3 img, #cell_4 img, #cell_5 img, #cell_6 img, #cell_7 img, #cell_8 img, #cell_9 img {
-	display: block;
-	width: 80%;
-	height: auto;
+	display:block;
+	width:80%;
+	height:auto;
 }
 
 #cell_2 img {
-	width: 60%
+	width:60%
 }
 
 .button{
 	text-align:center;
-	padding: 15px 25px;
-	border: solid black;
-	color: black;
-	width: 100%;
-	background-color: #cccccc;
-	align-items: center;
+	padding:15px 25px;
+	border:solid black;
+	color:black;
+	width:100%;
+	background-color:#cccccc;
+	text-align:center;
 }
 
 .button:hover{
-	background-color: gainsboro;
+	background-color:gainsboro;
 }
 
 .column.side {
-  width: 29%; 
-  float: left;
-  padding: 1%; 
-  border: solid black; 
-  margin: 0 0 2% 0;
-  text-align: center;
+  	width:29%; 
+  	float:left;
+  	padding:1%; 
+  	border:solid black; 
+  	margin:0 0 2% 0;
+  	text-align:center;
 }
 
 .column.side:hover {
-  background-color: lightgrey;
+  	background-color:lightgrey;
 }
 
 /*---This Middle column----*/
 .column.middle {
-  width: 29%; 
-  float: left; 
-  padding: 1%; 
-  border: solid black; 
-  margin: 0 2% 2% 2%;
-  text-align: center;
+  	width:29%; 
+  	float:left; 
+  	padding:1%; 
+  	border:solid black; 
+  	margin:0 2% 2% 2%;
+  	text-align: center;
 }
 
 .column.middle:hover {
-  background-color: lightgrey;
+  	background-color:lightgrey;
 }
 
 /*---This Middle column----*/
 .column.right {
-  width: 29%; 
-  float: left; 
-  padding: 1%; 
-  border: solid black; 
-  margin: 0 0 2% 0;
-  text-align: center;
+  	width:29%; 
+  	float:left; 
+  	padding:1%; 
+  	border:solid black; 
+  	margin:0 0 2% 0;
+  	text-align: center;
 }
 
 .column.right:hover {
-  background-color: lightgrey;
+	background-color:lightgrey;
 }
 
 .content1 iframe {
-		width: 600px;
-		height: 450px;
-	}
+	width:600px;
+	height:450px;
+}
 
 #footer { /* -------To style and set The footer of the page------------ */
 	position:relative;
@@ -323,46 +323,46 @@ hr {
 @media only screen and (min-width:150px) and (max-width:400px){
 	
 	.body{
-		margin: 0 auto;
+		margin:0 auto;
 		clear:both;
-		width: 98%;
+		width:98%;
 	}
 	
 	#postHeader{
-		display: block;
+		display:block;
 	}
 	
 	#navbar{
 		background-color:#cccccc;
-		height: 160px;
+		height:160px;
 	}
 
 	#navbar ul{
-		padding-left: 0px;
+		padding-left:0px;
 		
 	}
 
 	#navbar ul li{
-		width: 100%; 
-		text-align: center;
+		width:100%; 
+		text-align:center;
 	}
 
 	#navbar ul li a{
-		color: white;
+		color:white;
 		display:block; 
-		padding: 10px 15px;
-		height: 20px;
+		padding:10px 15px;
+		height:20px;
 	}
 
 	#navbar a:hover {
-		background-color: darkgrey;
-		color: black;
+		background-color:darkgrey;
+		color:black;
 	}
 	
 	#header img {
-		width: 100%;
-		height: auto;
-		margin: 2% 0;
+		width:100%;
+		height:auto;
+		margin:2% 0;
 	}
 	
 	#cell_1 {
@@ -448,8 +448,8 @@ hr {
 
 	
 	#cell_1 img,  #cell_3 img, #cell_4 img, #cell_5 img, #cell_7 img, #cell_8 img, #cell_9 img {
-		display: block;
-		width: 35%;
+		display:block;
+		width:35%;
 	}
 	
 	#cell_2 img, #cell_6 img{
@@ -457,28 +457,28 @@ hr {
 	}
 	
 	.column.side {
-  		width: 97%; 
-  		float: none;
-  		padding: 1%; 
-  		border: solid black; 
-  		margin: 0 0 2% 0;
-  		text-align: center;
+  		width:97%; 
+  		float:none;
+  		padding:1%; 
+  		border:solid black; 
+  		margin:0 0 2% 0;
+  		text-align:center;
 	}
 
 	.column.middle {
-	  	width: 97%; 
-	  	float: none; 
-	  	padding: 1%; 
-	  	border: solid black; 
-	  	margin: 0 0 2% 0;
-	  	text-align: center;
+	  	width:97%; 
+	  	float:none; 
+	  	padding:1%; 
+	  	border:solid black; 
+	  	margin:0 0 2% 0;
+	  	text-align:center;
 	}
 
 	.column.right {
-	  	width: 97%; 
-	  	float: none; 
-	  	padding: 1%; 
-	  	border: solid black; 
+	  	width:97%; 
+	  	float:none; 
+	  	padding:1%; 
+	  	border:solid black; 
 	  	margin: 0 0 2% 0;
 	  	text-align: center;
 	}
@@ -497,8 +497,8 @@ hr {
 	}
 	
 	.content1 iframe {
-		width: 500px;
-		height: 500px;
+		width:500px;
+		height:500px;
 	}
 	
 }
@@ -671,7 +671,7 @@ hr {
 
 	#footer { /* -------To style and set The footer of the page------------ */
 		position:relative;
-		clear:both;
+		clear: both;
 		bottom:0;
 		margin:5em 0 0 0;
 		padding:0;
@@ -828,16 +828,7 @@ hr {
 		display: none;
 	}
 	
-	#navbar1 ul{
+	#navbar ul{
 		padding-left: 0px;
 	}
-	
-	#navbar1 ul li a{
-		display: inline-block;
-		color: white;
-		padding: 10px 10px;
-		height: 20px;
-	}
-	
-
-}	
+}
